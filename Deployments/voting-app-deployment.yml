@@ -7,12 +7,12 @@ spec:
   selector:
     matchLabels:
       name: voting-app-pod
-      app: demo-voting-pod
+      app: demo-voting-app
   template:
     metadata:
       labels:
         name: voting-app-pod
-        app: demo-voting-pod
+        app: demo-voting-app
     spec:
       containers:
       - name: voting-app
